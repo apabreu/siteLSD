@@ -1,0 +1,56 @@
+#zona-formulario{
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    background: white;
+}
+
+.header-das-paginas{
+    height: 200px;
+}
+
+input, textarea{
+    width: 300px;
+    float: left;
+}
+
+#zona-formulario form li{
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+}
+
+#zona-formulario form label{
+    width: 200px;
+    /*background: orange;*/
+    display: block;
+    float: left;
+}
+
+#zona-formulario input[name=cod-postal-1]{
+    width: 80px;
+    margin-right: 5px;
+}
+
+#zona-formulario input[name=cod-postal-2]{
+    width: 45px;
+    float: none;
+}
+
+#zona-formulario input[name=genero]{
+    width: 20px;
+}
+
+#zona-formulario li ul{
+    width: calc(100% - 200px);
+    float: left;
+}
+
+#zona-formulario li li{
+    width: 25%;
+    float: left;
+}
+
+#zona-formulario input[name="interesses []"]{
+    width: 20px;
+}
